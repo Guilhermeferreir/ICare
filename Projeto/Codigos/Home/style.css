@@ -89,6 +89,24 @@ select{
 
 /*--------------------------- Artigos ---------------------*/
 
+.bloco2{
+  margin-top: 200px;
+  padding: 20px;
+}
+
+.bloco2 h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.artigos{
+    display: flex;
+}
+
+.col-sm-4{
+    padding: 30px;
+    margin-left: 80px;
+}
 .card-title{
     font-size: 18px;
     text-align: center;
@@ -105,7 +123,6 @@ select{
     border-radius: 9px 9px;
     padding: 10px;
     font-size: 12px;
-    margin-left: 90px;
-    
+    margin-left: 65px;  
 
 }
