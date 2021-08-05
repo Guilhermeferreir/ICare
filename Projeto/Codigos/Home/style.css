@@ -126,3 +126,46 @@ select{
     margin-left: 65px;  
 
 }
+
+/* ======================= Ultimo bloco =========================*/
+
+.bloco3{
+    margin: 90px 0 0 50px;
+    padding: 20px;
+}
+
+.blocoleft{
+    margin-left: 20px;
+}
+.blocoright{
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.blocoright h1{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .home h1{
+        font-size: 60px;
+    }
+
+    .home h2{
+        
+    }
+    .artigos{
+        display: block;
+    }
+    .col-sm-4{
+        margin-left: 0px;
+    }
+
+    .bloco3{
+        text-align: center;
+        margin: 0px 0px 0px 5px;
+    }
+
+}
