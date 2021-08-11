@@ -85,6 +85,7 @@ select{
 }
 .home h2{
     color:#fbbe28;
+    font-size: 40px;
 }
 
 /*--------------------------- Artigos ---------------------*/
@@ -104,8 +105,8 @@ select{
 }
 
 .col-sm-4{
-    padding: 30px;
-    margin-left: 80px;
+   padding:10px;
+   margin: auto;      
 }
 .card-title{
     font-size: 18px;
@@ -123,7 +124,7 @@ select{
     border-radius: 9px 9px;
     padding: 10px;
     font-size: 12px;
-    margin-left: 65px;  
+    margin-left: 100px;  
 
 }
 
