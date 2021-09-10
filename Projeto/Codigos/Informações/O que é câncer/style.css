@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width:100%;
+}
+.logo{
+    width: 80px;
+    height:80px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+nav{
+    margin-left: -80px;
+    position:fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+
+}
+
+.iconNav{
+    float: right;
+    margin-top: 20px;
+    margin-right: -25px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+nav ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+nav li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    font-size:18px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+}
+
+nav li a:hover{
+    color: #fbbe28;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+select{
+    background:transparent;
+    border: none;
+    font-size: 20px;
+    color:#666;
+    float: left;
+    margin-top: 35px;
+}
+
+.TextMain h1{
+    text-align: center;
+}
+
+.TextMain p{
+    padding: 5px;
+    margin: 5px 40px 0 40px;
+}
+
+.ImgCancer{
+    margin:30px 0 0 40px ;
+}
+
+.TextPosImg{
+    padding: 5px;
+    margin: 5px 40px 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/*======================= Responsividade ====================*/
+
+@media (max-width:800px){
+
+    .nav-list {
+        position: absolute;
+        right: 1;
+        width: 50vh;
+        height: 100vh;
+        background:#ffffff ;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: none;
+        font-size: 15px;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.164);
+        
+    }
+    .iconNav {
+        display: block;
+    } 
+    .open {
+        display: flex ;
+        justify-content: space-around ;
+    }
+
+    .TextMain{
+        margin:15px;
+    }
+
+    .TextMain p{
+        margin: 10px;
+    }
+
+    .ImgCancer{
+        text-align: center;
+        width: 300px;
+    }
+
+    
+
+
+}
