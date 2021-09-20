@@ -90,15 +90,27 @@ select{
     margin: 5px 40px 0 40px;
 }
 
-.ImgCancer{
-    margin:30px 0 0 40px ;
-}
-
-.TextPosImg{
+.IlustacaoDasCelulas p{
     padding: 5px;
     margin: 5px 40px 0 40px;
 }
 
+.ImgDiferençaEntreAsCelulas{
+    display: inline;
+    width: 550px;
+    margin: 30px 0 30px 40px;
+}
+
+
+
+.CâncerInfantil h1{
+    font-size: 30px ;
+}
+
+.CâncerInfantil h3{
+    font-size: 22px;
+    margin-left: 35px;
+}
 
 
 
@@ -147,7 +159,9 @@ select{
         width: 300px;
     }
 
-    
+    .CâncerInfantil h3{
+        text-align: center;
+    }
 
 
 }
