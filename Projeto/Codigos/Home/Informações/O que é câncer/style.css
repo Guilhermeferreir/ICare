@@ -72,33 +72,24 @@ a{
     font-size: 20px;
 }
 
-select{
-    background:transparent;
-    border: none;
-    font-size: 20px;
-    color:#666;
-    float: left;
-    margin-top: 35px;
-}
-
 .TextMain h1{
     text-align: center;
 }
 
 .TextMain p{
     padding: 5px;
-    margin: 5px 40px 0 40px;
+    margin: 5px 75px 0 75px;
 }
 
 .IlustacaoDasCelulas p{
     padding: 5px;
-    margin: 5px 40px 0 40px;
+    margin: 5px 75px 0 75px;
 }
 
 .ImgDiferençaEntreAsCelulas{
     display: inline;
     width: 550px;
-    margin: 30px 0 30px 40px;
+    margin: 5px 75px 0 75px;
 }
 
 
@@ -109,7 +100,7 @@ select{
 
 .CâncerInfantil h3{
     font-size: 22px;
-    margin-left: 35px;
+    margin-left: 75px;
 }
 
 

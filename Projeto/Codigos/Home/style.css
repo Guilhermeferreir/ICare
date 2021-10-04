@@ -82,30 +82,97 @@ select{
 }
 
 
-
-.home{
-    margin-top: 130px;
+.EntradaHome{
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 140px;
+    
 }
 
-.home h1{
-    font-size: 110px;
-    font-weight: 400;
-
+.EntradaHome h1{
+    font-size: 85px;
 }
-.home h2{
+
+.EntradaHome h2{
+    font-size: 50px;
+    color: #fbbe28;
+}
+
+.bloco1{
+    margin-top: 170px;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.bloco1 h3{
+    color: #fbbe28;
+}
+
+
+.bloco1 p{
+    margin: 0 70px;
+    padding: 15px;
+    font-size: 17px;
+    line-height: 200%;
+    margin-bottom: 30px;
+}
+
+.bloco1 a{
+    background: #fbbe28;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.bloco1 a:hover{
+    background: #fcc845;
+    padding: 10px;
+}
+
+/*----------------- Câncer Infantil ------------------ */
+
+
+
+.bloco2{
+    text-align: center;
+    padding: 20px;
+}
+
+.bloco2 h3{
     color:#fbbe28;
-    font-size: 40px;
+}
+
+.bloco2 p{
+    font-size: 18px;
+    padding: 15px;
+    margin: 0 70px;
+    line-height: 200%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bloco2 a{
+    background: #fbbe28;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bloco2 a:hover{
+    background: #fcc845;
+    padding: 10px;
 }
 
 /*--------------------------- Artigos ---------------------*/
 
-.bloco2{
+.bloco3{
   margin-top: 190px;
   padding: 20px;
 }
 
-.bloco2 h1{
+.bloco3 h1{
     text-align: center;
     padding: 20px;
 }
@@ -159,6 +226,22 @@ select{
     font-size: 30px;
 }
 
+/*======================= Footer ====================*/
+
+footer{
+    margin-top: 90px;
+    background-color: #fcc845;
+    height: 350px;
+}
+
+.sobre{
+    float: left;
+    margin-left: 45px;
+}
+
+
+
+
 /*======================= Responsividade ====================*/
 
 @media (max-width:800px){
@@ -189,21 +272,37 @@ select{
 
 @media screen and (max-width: 600px) {
 
-    .home h1{
+    .EntradaHome h1{
         font-size: 60px;
     }
 
-    .home h2{
+    .EntradaHome h2{
         font-size: 40px;
         padding: 12px;
         margin-top: 25px;
     }
+
+    .bloco1 p{
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .bloco2 p{
+        margin: 5px;
+        
+    }
+
+
     .artigos{
         display: block;
     }
     .bloco3{
         text-align: center;
         margin: 0px 0px 0px 5px;
+    }
+
+    .bloco3 .ler{
+        margin-right: 95px;
     }
 
 }
