@@ -157,6 +157,34 @@ a{
 
 }
 
+.Cards{
+    display: flex;   
+}
+
+.col-sm-4{
+    padding:10px;
+    margin: auto;      
+ }
+ .card-title{
+     font-size: 18px;
+     text-align: center;
+ }
+ 
+ .card-text{
+     font-size: 15px;
+     text-align: center;
+ }
+ 
+ .ler{
+     background: #fbbe28;
+     color: #fff;
+     border-radius: 9px 9px;
+     padding: 10px;
+     font-size: 12px;
+     margin-left: 100px;  
+ 
+ }
+ 
 
 /*======================= Animações ====================*/
 
