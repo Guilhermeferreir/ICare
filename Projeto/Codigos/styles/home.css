@@ -75,8 +75,8 @@ a{
 
 .EntradaHome{
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 140px;
+    margin-top: 130px;
+    margin-bottom: 250px;
     
 }
 
@@ -88,6 +88,9 @@ a{
     font-size: 50px;
     color: #fbbe28;
 }
+
+
+/*----------------- Câncer Infantil ------------------ */
 
 .bloco1{
     margin-top: 170px;
@@ -121,8 +124,6 @@ a{
     background: #fcc845;
     padding: 10px;
 }
-
-/*----------------- Câncer Infantil ------------------ */
 
 
 
@@ -176,6 +177,12 @@ a{
    padding:10px;
    margin: auto;      
 }
+
+.col-sm-4:hover{
+    padding: 2px;
+    transition: 0.5s;
+}
+
 .card-title{
     font-size: 18px;
     text-align: center;
@@ -192,8 +199,15 @@ a{
     border-radius: 9px 9px;
     padding: 10px;
     font-size: 12px;
-    margin-left: 100px;  
+    display: grid;
+    place-items: center; 
+    font-size: 14.5px;
 
+}
+
+.ler:hover{
+    margin: 10px;
+    transition: 0.5s;
 }
 
 /* ======================= Ultimo bloco =========================*/
@@ -228,9 +242,22 @@ footer{
 .sobre{
     float: left;
     margin-left: 45px;
+    margin-top: 40px;
 }
 
+.sobre p{
+    font-size: 15px;
+    padding: 5px;
+}
 
+.sociais{
+    float: right;
+    margin-right: 100px;
+}
+
+.sociais p{
+    font-size: 15px;
+}
 
 
 /*======================= Responsividade ====================*/

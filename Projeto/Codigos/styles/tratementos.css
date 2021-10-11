@@ -64,7 +64,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color: #fbbe28;
+    color:#fbbe28;
 }
 
 a{
@@ -72,78 +72,65 @@ a{
     font-size: 20px;
 }
 
-.TextMain h1{
-    text-align: center;
+
+.home {
+    text-align : center;
 }
 
-.TextMain p{
-    padding: 5px;
-    margin: 5px 75px 0 75px;
-}
+.home h1 {
+    font-size : 30px;
+    font-weight : 400px;
 
-.IlustacaoDasCelulas{
-    display: grid;
-    place-items: center;
 }
-.IlustacaoDasCelulas p{
-    padding: 5px;
-    margin: 5px 75px 0 75px;
-}
-
-.ImgDiferençaEntreAsCelulas{
-    display: inline;
-    width: 550px;
-    margin: 5px 75px 0 75px;
+.home  h2 {
+    color: #fbbe28;
+    font-size:40px;
 }
 
 
 
-.CâncerInfantil h1{
-    font-size: 30px ;
+
+.bloco1 {
+    padding:  20px ;
 }
 
-.CâncerInfantil h3{
-    font-size: 22px;
-    margin-left: 75px;
+.bloco1 h1 {
+    text-align : center;
+    padding: 20px;
+}
+
+.artigos {
+    display : flex;
+}
+
+.col-sm-4 {
+    padding: 10px ;
+   margin : auto;      
+}
+.card-title {
+    font-size:18px ;
+    text-align:center;
+}
+
+.card-text {
+    font-size :  15px ;
+    text-align : center;
+}
+
+.ler {
+    background:#fbbe28;
+    color: #fff;
+    border-radius :  9px  9px ;
+    padding:10px ;
+    font-size : 12px ;
+    margin-left: 30px ;  
 }
 
 
-.artigos{
-    display: flex;   
-}
 
-.col-sm-4{
-    padding:10px;
-    margin: auto;      
- }
- .card-title{
-     font-size: 18px;
-     text-align: center;
- }
- 
- .card-text{
-     font-size: 15px;
-     text-align: center;
- }
- 
- .ler{
-     background: #fbbe28;
-     color: #fff;
-     border-radius: 9px 9px;
-     padding: 10px;
-     font-size: 12px;
-     margin-left: 70px;  
- 
- }
+/* ======================= Responsividade ==================== */
 
-
-
-
-
-
-/*======================= Responsividade ====================*/
-
-@media (max-width:800px){
+@media (max-width : 800px) {
 
     .nav-list {
         position: absolute;
@@ -166,34 +153,36 @@ a{
         display: flex ;
         justify-content: space-around ;
     }
+}
 
-    .TextMain{
-        margin:15px;
+  @media (max-width : 600px) {
+
+
+    .home  h1 {
+        font-size: 60px;
     }
 
-    .TextMain p{
-        margin: 10px;
+    .home  h2 {
+        font-size: 40px ;
+        padding: 12px ;
+        margin-top: 25px ;
     }
-
-    .ImgCancer{
-        text-align: center;
-        width: 300px;
+    .artigos {
+        display : block;
     }
-
-    .CâncerInfantil h3{
-        text-align: center;
+    .bloco3 {
+        text-align : center;
+        margin :  0px  0px  0px  5px ;
     }
-
 
 }
 
- 
 
 /*======================= Animações ====================*/
 
 *{
     animation-name: fade;  
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     }
     @keyframes fade{
     from{
