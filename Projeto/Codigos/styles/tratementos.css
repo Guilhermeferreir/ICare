@@ -90,14 +90,47 @@ a{
 
 
 
-.bloco1 {
-    padding:  20px ;
+.bloco1, .bloco2, .bloco3, .bloco4{
+    padding:  20px;
+}
+
+.bloco1 p{
+    margin: 50px;
+    font-size: 18px;
 }
 
 .bloco1 h1 {
     text-align : center;
     padding: 20px;
 }
+
+
+
+.bloco2 h2{
+    font-size: 27px;
+    margin: 30px;
+}
+.bloco2, .bloco3, .bloco4 p{
+    margin: 5px 60px 0 60px;
+    padding: 5px;
+}
+
+
+.bloco3 h2{
+   font-size: 27px;
+   margin: 30px;
+}
+
+
+.bloco4 h2{
+    font-size: 27px;
+     margin: 30px;
+}
+
+
+
+
+
 
 .artigos {
     display : flex;

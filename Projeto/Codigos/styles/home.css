@@ -122,7 +122,8 @@ a{
 
 .bloco1 a:hover{
     background: #fcc845;
-    padding: 10px;
+    padding: 15px;
+    transition: 0.5s;
 }
 
 
@@ -154,7 +155,8 @@ a{
 
 .bloco2 a:hover{
     background: #fcc845;
-    padding: 10px;
+    padding: 15px;
+    transition: 0.5s;
 }
 
 /*--------------------------- Artigos ---------------------*/
@@ -234,8 +236,8 @@ a{
 /*======================= Footer ====================*/
 
 footer{
-    margin-top: 90px;
-    background-color: #fcc845;
+    margin-top: 110px;
+    background-color: #f0b82c54;
     height: 350px;
 }
 
