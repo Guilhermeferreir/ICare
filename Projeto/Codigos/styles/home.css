@@ -235,32 +235,45 @@ a{
 
 /*======================= Footer ====================*/
 
+
 footer{
-    margin-top: 110px;
-    background-color: #f0b82c54;
-    height: 350px;
+    margin-top: 140px;
+    display: flex;
+    background: #fcc845;
+    padding: 10px;
+    height: 320px;
 }
 
-.sobre{
-    float: left;
-    margin-left: 45px;
-    margin-top: 40px;
+footer div{
+    padding: 55px;
 }
 
-.sobre p{
-    font-size: 15px;
-    padding: 5px;
+h4{
+    font-size:20px;
+    color: white;
 }
 
-.sociais{
-    float: right;
-    margin-right: 100px;
+footer p{
+    color: dimgrey;
 }
 
-.sociais p{
-    font-size: 15px;
+footer a{
+    color: #666;
+    font-size: 18px;
 }
 
+.explore{
+    margin-left: 100px;
+}
+.explore a{
+    font-size: 17px;
+}
+
+.explore a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    color: black;
+}
 
 /*======================= Responsividade ====================*/
 

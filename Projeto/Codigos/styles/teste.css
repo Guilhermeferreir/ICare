@@ -64,7 +64,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color:#fbbe28;
+    color: #fbbe28;
 }
 
 a{
@@ -73,115 +73,86 @@ a{
 }
 
 
-.home {
-    text-align : center;
+.blocoLeft h1{
+    text-align: center;
+    font-size: 32px;
 }
 
-.home h1 {
-    font-size : 30px;
-    font-weight : 400px;
-
-}
-.home  h2 {
-    color: #fbbe28;
-    font-size:40px;
+.blocoLeft p{
+   padding: 10px;
 }
 
-
-
-
-.bloco1, .bloco2, .bloco3, .bloco4{
-    padding:  20px;
+.DivImg{
+    display: grid;
+    place-items: center;
+}
+.DivText{
+    margin: 40px;
 }
 
-.bloco1 p{
-    margin: 50px;
-    font-size: 18px;
+.CancerInfantil h1{
+    text-align: center;
+    font-size: 35px;
 }
 
-.bloco1 h1 {
-    text-align : center;
-    padding: 20px;
-}
-
-
-
-.bloco2 h2{
-    font-size: 27px;
-    margin: 30px;
-}
-.bloco2, .bloco3, .bloco4 p{
-    margin: 5px 60px 0 60px;
-    padding: 5px;
-}
-
-
-.bloco3 h2{
-   font-size: 27px;
-   margin: 30px;
-}
-
-
-.bloco4 h2{
-    font-size: 27px;
-     margin: 30px;
-}
-
-
-.bloco5 h2{
-    color: #fbbe28;
-    font-size: 27px;
-}
-
-.bloco5 p{
-    margin: 5px 60px 0 60px;
+.CancerInfantil h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
     padding: 10px;
 }
-
-.bloco6 h2{
-    color: #fbbe28;
-    font-size: 27px;
+.CancerInfantil{
+    margin: 40px;
 }
 
-.bloco6 p{
-    margin: 5px 60px 0 60px;
+.artigos{
+    display: flex;  
+    margin-top: 80px; 
+}
+
+.col-sm-4{
+    padding:10px;
+    margin: auto;      
+ }
+
+.col-sm-4:hover{
+    padding: 2px;
+    transition: 0.5s;
+}
+
+ .card-title{
+     font-size: 18px;
+     text-align: center;
+ }
+ 
+ .card-text{
+     font-size: 15px;
+     text-align: center;
+ }
+ 
+ .ler{
+    
+    color: rgb(42, 4, 212);
+   
     padding: 10px;
+    font-size: 12px;
+    display: grid;
+    place-items: center; 
+    font-size: 14.5px;
+
+}
+
+.ler:hover{
+    margin: 10px;
+    transition: 0.5s;
 }
 
 
 
-.artigos {
-    display : flex;
-}
 
-.col-sm-4 {
-    padding: 10px ;
-   margin : auto;      
-}
-.card-title {
-    font-size:18px ;
-    text-align:center;
-}
+/*======================= Responsividade ====================*/
 
-.card-text {
-    font-size :  15px ;
-    text-align : center;
-}
-
-.ler {
-    background:#fbbe28;
-    color: #fff;
-    border-radius :  9px  9px ;
-    padding:10px ;
-    font-size : 12px ;
-    margin-left: 30px ;  
-}
-
-
-
-/* ======================= Responsividade ==================== */
-
-@media (max-width : 800px) {
+@media (max-width:800px){
 
     .nav-list {
         position: absolute;
@@ -204,36 +175,34 @@ a{
         display: flex ;
         justify-content: space-around ;
     }
-}
 
-  @media (max-width : 600px) {
-
-
-    .home  h1 {
-        font-size: 60px;
+    .TextMain{
+        margin:15px;
     }
 
-    .home  h2 {
-        font-size: 40px ;
-        padding: 12px ;
-        margin-top: 25px ;
+    .TextMain p{
+        margin: 10px;
     }
-    .artigos {
-        display : block;
+
+    .ImgCancer{
+        text-align: center;
+        width: 300px;
     }
-    .bloco3 {
-        text-align : center;
-        margin :  0px  0px  0px  5px ;
+
+    .CâncerInfantil h3{
+        text-align: center;
     }
+
 
 }
 
+ 
 
 /*======================= Animações ====================*/
 
 *{
     animation-name: fade;  
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     }
     @keyframes fade{
     from{
