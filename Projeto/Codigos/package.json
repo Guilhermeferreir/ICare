@@ -1,0 +1,14 @@
+{
+  "name": "adm",
+  "version": "1.0.0",
+  "description": "Área do administrador ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GuilhermeFerreir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
