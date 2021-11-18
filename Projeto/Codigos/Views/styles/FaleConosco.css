@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width:100%;
+}
+.logo{
+    width: 80px;
+    height:80px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+nav{
+    margin-left: -80px;
+    position:fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+
+}
+
+.iconNav{
+    float: right;
+    margin-top: 20px;
+    margin-right: -25px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+nav ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+nav li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    font-size:18px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+}
+
+nav li a:hover{
+    color: #fbbe28;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#form{
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    color: #fbbe28;
+    font-weight: 200;
+}
+
+input{
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    width: 500px;
+    border: solid 0.5px #fbbe28;
+}
+
+label{
+    padding: 5px;
+}
+textarea{
+    border: solid 0.5px #fbbe28;
+}
+
+.BtnEnviar{
+    margin-top: 15px;
+    color: white;
+    background: #fbbe28;
+    font-size: 17px;
+    padding: 6px;
+    width: 110px;
+    text-align: center;
+}
+
+
+footer{
+    margin-top: 140px;
+    display: flex;
+    background: #fcc845;
+    padding: 10px;
+    height: 320px;
+}
+
+footer div{
+    padding: 55px;
+}
+
+h4{
+    font-size:20px;
+    color: white;
+}
+
+footer p{
+    color: dimgrey;
+}
+
+footer a{
+    color: #666;
+    font-size: 18px;
+}
+
+.explore{
+    margin-left: 100px;
+}
+.explore a{
+    font-size: 17px;
+}
+
+.explore a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    color: black;
+}
