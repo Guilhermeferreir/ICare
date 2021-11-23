@@ -26,26 +26,26 @@
             </ul>
         </nav>
     </header>
-    <div id="form">
-        <h1>Fale Conosco</h1>
+        <form action="AssuntoEnviado.html">
+            <h1>Fale Conosco</h1>
 
         <label for="name">Nome</label>
-        <input type="text" required placeholder="Informe seu nome completo">
+        <input type="text" placeholder="Informe seu nome completo" required>
 
         <label for="email">Email</label><br>
-        <input type="email" required placeholder="Informe o seu Email">
+        <input type="email" placeholder="Informe o seu Email" title="xxxxx@gmail.com" required>
 
         <label for="phone">Telefone</label>
-        <input type="tel" required placeholder="(00)-0000-0000">
+        <input type="tel" placeholder="XXXX-XXX-XXXX"  pattern="^\d{4}-\d{3}-\d{4}$" required>
 
         <label for="assunto">Assunto</label><br>
-        <input type="text" required placeholder="Informe o assunto">
+        <input type="text" placeholder="Informe o assunto" min="4" required>
 
         <label for="mensagem">Mensagem</label>
-        <textarea name="" id="" cols="32" rows="6"></textarea>
+        <textarea name="" id="" cols="33" rows="6" required></textarea>
 
-        <a class="BtnEnviar" href="">Enviar</a>
-    </div>
+        <input class="BtnEnviar" value="Enviar" type="submit">
+        </form>
         
 
         <footer>

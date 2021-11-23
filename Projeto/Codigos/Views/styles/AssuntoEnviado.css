@@ -72,75 +72,44 @@ a{
     font-size: 20px;
 }
 
-form{
+.enviado{
     display: grid;
     place-items: center;
+    margin-top: 50px;
 }
 
-h1{
-    color: #fbbe28;
-    font-weight: 200;
+.enviado h1{
+    font-size: 35px;
 }
 
-input{
-    padding: 8px;
+.enviado h4{
+    font-weight: 500;
+}
+
+.enviado a{
+    background-color: #fbbe28;
+    margin-top: 20px;
     text-align: center;
     border-radius: 5px;
-    width: 500px;
-    border: solid 0.5px #fbbe28;
+    border: none;
+    padding:9px;
+    width: 140px;
+    color:#fff;
 }
 
 
-textarea{
-    border: solid 0.5px #fbbe28;
-}
-
-.BtnEnviar{
-    margin-top: 15px;
-    color: white;
-    background: #fbbe28;
-    font-size: 17px;
-    padding: 6px;
-    width: 110px;
-    text-align: center;
-}
 
 
-footer{
-    margin-top: 140px;
-    display: flex;
-    background: #fcc845;
-    padding: 10px;
-    height: 320px;
-}
-
-footer div{
-    padding: 55px;
-}
-
-h4{
-    font-size:20px;
-    color: white;
-}
-
-footer p{
-    color: dimgrey;
-}
-
-footer a{
-    color: #666;
-    font-size: 18px;
-}
-
-.explore{
-    margin-left: 100px;
-}
-.explore a{
-    font-size: 17px;
-}
-
-.explore a:hover{
-    font-size: 20px;
-    transition: 0.5s;
-    color: black;
-}
+*{
+    animation-name: fade;  
+    animation-duration: 1s;
+    }
+    @keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }
