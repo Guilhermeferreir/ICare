@@ -78,17 +78,10 @@ a{
 }
 
 .home h1 {
-    font-size : 30px;
-    font-weight : 400px;
-
-}
-.home  h2 {
+    font-size : 40px;
     color: #fbbe28;
-    font-size:40px;
+
 }
-
-
-
 
 .bloco1, .bloco2, .bloco3, .bloco4{
     padding:  20px;
@@ -108,6 +101,7 @@ a{
 
 .bloco2 h2{
     font-size: 27px;
+    font-weight:800;
     margin: 30px;
 }
 .bloco2, .bloco3, .bloco4 p{
@@ -118,12 +112,14 @@ a{
 
 .bloco3 h2{
    font-size: 27px;
+   font-weight:800;
    margin: 30px;
 }
 
 
 .bloco4 h2{
     font-size: 27px;
+    font-weight:800;
      margin: 30px;
 }
 
@@ -131,6 +127,7 @@ a{
 .bloco5 h2{
     color: #fbbe28;
     font-size: 27px;
+    font-weight:800;
 }
 
 .bloco5 p{
@@ -140,7 +137,14 @@ a{
 
 .bloco6 h2{
     color: #fbbe28;
-    font-size: 27px;
+    font-size: 30px;
+    font-weight:800;
+    padding: 10px;
+}
+
+.bloco6 h3{
+    font-size: 25px;
+    margin-top: 30px;
 }
 
 .bloco6 p{
@@ -148,9 +152,25 @@ a{
     padding: 10px;
 }
 
+.bloco7 h2{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.bloco7 p{
+    margin: 5px 60px 10px 60px;
+    font-size: 16px;
+}
+
+.bloco7 li{
+    margin-left: 90px;
+    float: left;
+    padding: 3px;
+}
 
 
 .artigos {
+    margin-top: 300px;
     display : flex;
 }
 
@@ -176,6 +196,7 @@ a{
     font-size : 12px ;
     margin-left: 30px ;  
 }
+
 
 
 
