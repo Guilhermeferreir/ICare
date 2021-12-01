@@ -168,9 +168,13 @@ a{
     padding: 3px;
 }
 
+.bloco8{
+    margin-top: 250px;
+}
+
 
 .artigos {
-    margin-top: 300px;
+    margin-top: 40px;
     display : flex;
 }
 
@@ -194,7 +198,7 @@ a{
     border-radius :  9px  9px ;
     padding:10px ;
     font-size : 12px ;
-    margin-left: 30px ;  
+    margin-left: 20px ;  
 }
 
 
