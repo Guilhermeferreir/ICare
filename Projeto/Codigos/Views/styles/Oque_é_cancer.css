@@ -113,6 +113,14 @@ a{
     margin: 40px;
 }
 
+.ImgIndice, .Indice5anos{
+    display: grid;
+    place-items: center;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+
 .artigos{
     display: flex;  
     margin-top: 80px; 
