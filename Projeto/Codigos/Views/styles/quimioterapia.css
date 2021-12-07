@@ -71,62 +71,108 @@ a{
     text-decoration: none;
     font-size: 20px;
 }
-.bloco1{
+
+.bloco6 h2{
+    text-align: center;
+    color: #63c1f8;
+    font-size: 30px;
+    font-weight:6;
+    padding: 10px;
+}
+
+.bloco6 h3{
+    text-align: center;
+    font-size: 25px;
     margin-top: 30px;
 }
 
-.bloco1 h1{
-    text-align: center;
-    color: #63c1f8;
-    font-size: 34px;
-    font-weight:800;
-}
-
-.bloco1 h2{
-    text-align: center;
-    padding: 7px;
-    font-size: 25px;
-
-}
-
-.bloco1 h3{
-    color: #63c1f8;
-    margin-left: 70px;
-    padding: 10px;
-    font-size: 22px;
-}
-
-.bloco1 p{
+.bloco6 p, li{
     margin: 5px 60px 0 60px;
     padding: 10px;
 }
 
-.artigos {
-    margin-top: 40px;
+
+/*======================= Footer ====================*/
+
+
+footer{
+    margin-top: 140px;
+    display: flex;
+    background: #63c1f8;
+    padding: 10px;
+    height: 320px;
+}
+
+footer div{
+    padding: 55px;
+}
+
+h4{
+    font-size:20px;
+    color: white;
+}
+
+footer p{
+    color: dimgrey;
+}
+
+footer a{
+    color: #666;
+    font-size: 18px;
+}
+
+.explore{
     margin-left: 100px;
-    display : flex;
+}
+.explore a{
+    font-size: 17px;
 }
 
-.col-sm-4 {
-    padding: 10px ;   
-    margin: auto;  
-}
-.card-title {
-    font-size:18px ;
-    margin-left: 90px;
+.explore a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    color: black;
 }
 
-.card-text {
-    font-size :  15px ;
-    text-align : center;
+.artigos{
+    display: flex;  
+    margin-top: 80px; 
 }
 
-.ler {
-    background:#63c1f8;
+.col-sm-4{
+    padding:10px;
+    margin: auto;      
+ }
+
+.col-sm-4:hover{
+    padding: 2px;
+    transition: 0.5s;
+}
+
+ .card-title{
+     font-size: 18px;
+     text-align: center;
+ }
+ 
+ .card-text{
+     font-size: 15px;
+     text-align: center;
+ }
+ 
+ .ler{
+    background: #63c1f8;
     color: #fff;
-    border-radius :  9px  9px ;
-    padding:10px ;
-    font-size : 12px ;
-    margin-left: 100px ;  
+    border-radius: 9px 9px;
+    padding: 10px;
+    font-size: 12px;
+    display: grid;
+    place-items: center; 
+    font-size: 14.5px;
+
 }
 
+.ler:hover{
+    color: black;
+    margin: 10px;
+    transition: 0.5s;
+}

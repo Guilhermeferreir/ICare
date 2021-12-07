@@ -64,7 +64,8 @@ nav li a{
 }
 
 nav li a:hover{
-    color: #fbbe28;
+    color: #2eabf3;
+
 }
 
 a{
@@ -86,7 +87,7 @@ a{
 
 .EntradaHome h2{
     font-size: 50px;
-    color: #fbbe28;
+    color: #2eabf3;
 }
 
 
@@ -99,7 +100,7 @@ a{
 }
 
 .bloco1 h3{
-    color: #fbbe28;
+    color: #2eabf3;
 }
 
 
@@ -112,7 +113,7 @@ a{
 }
 
 .bloco1 a{
-    background: #fbbe28;
+    background: #2eabf3;
     color: #fff;
     font-size: 17px;
     padding: 10px;
@@ -121,7 +122,7 @@ a{
 }
 
 .bloco1 a:hover{
-    background: #fcc845;
+    background: #2eabf3;
     padding: 15px;
     transition: 0.5s;
 }
@@ -134,7 +135,7 @@ a{
 }
 
 .bloco2 h3{
-    color:#fbbe28;
+    color:#2eabf3;
 }
 
 .bloco2 p{
@@ -146,7 +147,7 @@ a{
     margin-bottom: 30px;
 }
 .bloco2 a{
-    background: #fbbe28;
+    background: #2eabf3;
     color: #fff;
     font-size: 17px;
     padding: 10px;
@@ -154,7 +155,7 @@ a{
 }
 
 .bloco2 a:hover{
-    background: #fcc845;
+    background: #2eabf3;
     padding: 15px;
     transition: 0.5s;
 }
@@ -196,7 +197,7 @@ a{
 }
 
 .ler{
-    background: #fbbe28;
+    background: #63c1f8;
     color: #fff;
     border-radius: 9px 9px;
     padding: 10px;
@@ -239,7 +240,7 @@ a{
 footer{
     margin-top: 140px;
     display: flex;
-    background: #fcc845;
+    background: #63c1f8;
     padding: 10px;
     height: 320px;
 }

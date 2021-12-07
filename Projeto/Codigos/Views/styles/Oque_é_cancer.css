@@ -79,6 +79,7 @@ a{
 }
 
 .blocoLeft h1{
+    color: #2eabf3;
     margin-left: 100px;
     font-weight: 500;
     font-size: 35px;
@@ -100,6 +101,7 @@ a{
 }
 
 .CancerInfantil h1{
+    color: #2eabf3;
     text-align: center;
     font-size: 35px;
 }
@@ -147,7 +149,7 @@ a{
  }
  
  .ler{
-    background: #fbbe28;
+    background: #63c1f8;
     color: #fff;
     border-radius: 9px 9px;
     padding: 10px;
@@ -159,9 +161,12 @@ a{
 }
 
 .ler:hover{
+    color: black;
     margin: 10px;
     transition: 0.5s;
 }
+
+
 
 
 

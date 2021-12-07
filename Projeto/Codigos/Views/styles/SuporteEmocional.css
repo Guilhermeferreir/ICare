@@ -64,7 +64,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color: #fbbe28;
+    color: #2eabf3;
 }
 
 a{
@@ -79,7 +79,7 @@ a{
 .ManeiasDeLidarem h2{
     text-align: center;
     font-size: 27px;
-    color: #fbbe28;
+    color: #2eabf3;
 
 }
 
@@ -108,7 +108,7 @@ a{
 footer{
     margin-top: 140px;
     display: flex;
-    background: #fcc845;
+    background: #52bfff;
     padding: 10px;
     height: 320px;
 }

@@ -64,7 +64,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color:#fbbe28;
+    color:#2eabf3;
 }
 
 a{
@@ -79,7 +79,7 @@ a{
 
 .home h1 {
     font-size : 40px;
-    color: #fbbe28;
+    color: #2eabf3;
 
 }
 
@@ -125,7 +125,7 @@ a{
 
 
 .bloco5 h2{
-    color: #fbbe28;
+    color: #2eabf3;
     font-size: 27px;
     font-weight:800;
 }
@@ -136,7 +136,24 @@ a{
 }
 
 .bloco6 h2{
-    color: #fbbe28;
+    color: #2eabf3;
+    font-size: 30px;
+    font-weight:800;
+    padding: 10px;
+}
+
+.bloco6 h3{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.bloco6 p{
+    margin: 5px 60px 0 60px;
+    padding: 10px;
+}
+
+.bloco6 h2{
+    color: #2eabf3;
     font-size: 30px;
     font-weight:800;
     padding: 10px;
@@ -174,7 +191,7 @@ a{
 
 
 .artigos {
-    margin-top: 40px;
+    margin-top: 60px;
     display : flex;
 }
 
@@ -193,12 +210,51 @@ a{
 }
 
 .ler {
-    background:#fbbe28;
+    background:#2eabf3;
     color: #fff;
     border-radius :  9px  9px ;
     padding:10px ;
     font-size : 12px ;
     margin-left: 20px ;  
+}
+
+footer{
+    margin-top: 140px;
+    display: flex;
+    background: #63c1f8;
+    padding: 10px;
+    height: 320px;
+}
+
+footer div{
+    padding: 55px;
+}
+
+h4{
+    font-size:20px;
+    color: white;
+}
+
+footer p{
+    color: dimgrey;
+}
+
+footer a{
+    color: #666;
+    font-size: 18px;
+}
+
+.explore{
+    margin-left: 100px;
+}
+.explore a{
+    font-size: 17px;
+}
+
+.explore a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    color: black;
 }
 
 
