@@ -19,18 +19,18 @@
             <img onclick="IconMenu()" class="iconNav" src="img/icons8-menu.svg" alt="">
 
             <ul class="nav-list">
-                <li><a href="#">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="Acervo.html">Acervo</a></li>
                 <li><a href="#">Contatos</a></li>
                 <li><a href="">Sobre nós</a></li>
             </ul>
         </nav>
     </header>
-        <form action="AssuntoEnviado.html">
+        <form action="https://formsubmit.co/icaredesenvolvedores@gmail.com" method="POST">
             <h1>Fale Conosco</h1>
 
         <label for="name">Nome</label>
-        <input type="text" placeholder="Informe seu nome completo" class="nome" minlength="7" title="Nome completo por favor" required>
+        <input  name="name" type="text" placeholder="Informe seu nome completo" class="nome" minlength="7" title="Nome completo por favor" required>
 
         <label for="email">Email</label><br>
         <input type="email" placeholder="Informe o seu Email" title="xxxxx@gmail.com" required>
@@ -39,10 +39,10 @@
         <input type="tel" placeholder="XXXX-XXX-XXXX" class="phone"  pattern="^\d{4}-\d{3}-\d{4}$" title="Apenas números por favor" required>
 
         <label for="assunto">Assunto</label><br>
-        <input type="text" placeholder="Informe o assunto" minlength="10" required>
+        <input name="subject" type="text" placeholder="Informe o assunto" minlength="10" required>
 
         <label for="mensagem">Mensagem</label>
-        <textarea name="" id="" cols="33" rows="6" required></textarea>
+        <textarea name="message" id="" cols="33" rows="6" required></textarea>
 
         <input onclick="" class="BtnEnviar" value="Enviar" type="submit">
         </form>
