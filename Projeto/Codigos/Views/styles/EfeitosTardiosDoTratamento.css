@@ -64,7 +64,8 @@ nav li a{
 }
 
 nav li a:hover{
-    color: #fbbe28;
+    color: #2eabf3;
+
 }
 
 a{
@@ -72,78 +73,14 @@ a{
     font-size: 20px;
 }
 
-form{
-    display: grid;
-    place-items: center;
-}
-
-h1{
-    color: #fbbe28;
-    font-weight: 200;
-}
-
-input{
-    padding: 8px;
-    text-align: center;
-    border-radius: 5px;
-    width: 500px;
-    border: solid 0.5px #fbbe28;
-}
 
 
-textarea{
-    border: solid 0.5px #fbbe28;
-}
-
-.BtnEnviar{
-    margin-top: 15px;
-    color: white;
-    background: #fbbe28;
-    font-size: 17px;
-    padding: 6px;
-    width: 110px;
-    text-align: center;
-}
 
 
-footer{
-    margin-top: 140px;
-    display: flex;
-    background: #fcc845;
-    padding: 10px;
-    height: 320px;
-}
 
-footer div{
-    padding: 55px;
-}
 
-h4{
-    font-size:20px;
-    color: white;
-}
 
-footer p{
-    color: dimgrey;
-}
 
-footer a{
-    color: #666;
-    font-size: 18px;
-}
-
-.explore{
-    margin-left: 100px;
-}
-.explore a{
-    font-size: 17px;
-}
-
-.explore a:hover{
-    font-size: 20px;
-    transition: 0.5s;
-    color: black;
-}
 
 
 /*======================= Animações ====================*/

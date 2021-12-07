@@ -176,3 +176,20 @@ footer a{
     margin: 10px;
     transition: 0.5s;
 }
+
+
+/*======================= Animações ====================*/
+
+*{
+    animation-name: fade;  
+    animation-duration: 1s;
+    }
+    @keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }

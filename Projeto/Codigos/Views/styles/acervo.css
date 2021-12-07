@@ -64,7 +64,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color: #fbbe28;
+    color: #63c1f8;
 }
 
 a{
@@ -76,12 +76,12 @@ a{
     padding: 10px;
     width: 500px;
     margin-bottom: 40px;
-    border: 2px solid #fbbe28;
+    border: 2px solid #63c1f8;
 }
 
 .BtnSearch{
     padding: 12.5px;
-    background-color: #fbbe28;
+    background-color: #63c1f8;
     border: none;
     border-radius: 5px;
 }
@@ -116,7 +116,7 @@ a{
 }
 
 .ler{
-    background: #fbbe28;
+    background: #63c1f8;
     color: #fff;
     border-radius: 9px 9px;
     padding: 10px;
@@ -158,3 +158,19 @@ a{
         justify-content: space-around ;
     }
 }
+
+/*======================= Animações ====================*/
+
+*{
+    animation-name: fade;  
+    animation-duration: 1s;
+    }
+    @keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }
