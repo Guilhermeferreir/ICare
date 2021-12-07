@@ -74,6 +74,72 @@ a{
 }
 
 
+.bloco6 h2{
+    text-align: center;
+    color: #63c1f8;
+    font-size: 30px;
+    font-weight:6;
+    padding: 10px;
+}
+
+.bloco6 h3{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.bloco6 p{
+    margin: 5px 60px 0 60px;
+    padding: 10px;
+}
+
+.img01{
+    display: grid;
+    place-items: center;
+}
+
+
+/*======================= Footer ====================*/
+
+
+footer{
+    margin-top: 140px;
+    display: flex;
+    background: #63c1f8;
+    padding: 10px;
+    height: 320px;
+}
+
+footer div{
+    padding: 55px;
+}
+
+h4{
+    font-size:20px;
+    color: white;
+}
+
+footer p{
+    color: dimgrey;
+}
+
+footer a{
+    color: #666;
+    font-size: 18px;
+}
+
+.explore{
+    margin-left: 100px;
+}
+.explore a{
+    font-size: 17px;
+}
+
+.explore a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    color: black;
+}
 
 
 
