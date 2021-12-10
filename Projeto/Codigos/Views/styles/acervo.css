@@ -64,7 +64,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color: #63c1f8;
+    color: #2d1674;
 }
 
 a{
@@ -76,12 +76,13 @@ a{
     padding: 10px;
     width: 500px;
     margin-bottom: 40px;
-    border: 2px solid #63c1f8;
+    border: 2px solid #2d1674;
 }
 
 .BtnSearch{
     padding: 12.5px;
-    background-color: #63c1f8;
+    color: white;
+    background-color: #2d1674;
     border: none;
     border-radius: 5px;
 }
@@ -100,6 +101,14 @@ a{
 }
 
 
+.ParaBaixar{
+    margin-top: 30px;
+}
+
+.ParaBaixar h3{
+    text-align: center;
+}
+
 
 .col-sm-4{
    padding:10px;
@@ -116,7 +125,7 @@ a{
 }
 
 .ler{
-    background: #63c1f8;
+    background: #2d1674;
     color: #fff;
     border-radius: 9px 9px;
     padding: 10px;

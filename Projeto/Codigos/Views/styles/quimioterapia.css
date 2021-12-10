@@ -64,7 +64,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color:#63c1f8;
+    color:#2d1674;
 }
 
 a{
@@ -74,7 +74,7 @@ a{
 
 .bloco6 h2{
     text-align: center;
-    color: #63c1f8;
+    color: #2d1674;
     font-size: 30px;
     font-weight:6;
     padding: 10px;
@@ -98,7 +98,7 @@ a{
 footer{
     margin-top: 140px;
     display: flex;
-    background: #63c1f8;
+    background: #2d1674;
     padding: 10px;
     height: 320px;
 }
@@ -160,7 +160,7 @@ footer a{
  }
  
  .ler{
-    background: #63c1f8;
+    background:#2d1674;
     color: #fff;
     border-radius: 9px 9px;
     padding: 10px;
