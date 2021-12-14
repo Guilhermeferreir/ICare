@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width:100%;
+}
+.logo{
+    width: 80px;
+    height:80px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+nav{
+    margin-left: -80px;
+    position:fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+
+}
+
+.iconNav{
+    float: right;
+    margin-top: 20px;
+    margin-right: -25px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+nav ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+nav li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    font-size:18px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+}
+
+nav li a:hover{
+    color:#fbbe28;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.home {
+    text-align : center;
+}
+
+.home h1 {
+    font-size : 40px;
+    color: #fbbe28;
+
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4{
+    padding:  20px;
+}
+
+.bloco1 p{
+    margin: 50px;
+    font-size: 18px;
+}
+
+.bloco1 h1 {
+    text-align : center;
+    padding: 20px;
+}
+
+
+
+.bloco2 h2{
+    font-size: 27px;
+    font-weight:800;
+    margin: 30px;
+}
+.bloco2, .bloco3, .bloco4 p{
+    margin: 5px 60px 0 60px;
+    padding: 5px;
+}
+
+
+.bloco3 h2{
+   font-size: 27px;
+   font-weight:800;
+   margin: 30px;
+}
+
+
+.bloco4 h2{
+    font-size: 27px;
+    font-weight:800;
+     margin: 30px;
+}
+
+
+.bloco5 h2 {
+        font-size: 27px;
+        font-weight: 800;
+        margin: 30px;
+}
+
+.bloco6 h2{
+    color: #fbbe28;
+    font-size: 30px;
+    font-weight:800;
+    padding: 10px;
+}
+
+.bloco6 h3{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.bloco6 p{
+    margin: 5px 60px 0 60px;
+    padding: 10px;
+}
+
+.bloco7 h2{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.bloco7 p{
+    margin: 5px 60px 10px 60px;
+    font-size: 16px;
+}
+
+.bloco7 li{
+    margin-left: 90px;
+    float: left;
+    padding: 3px;
+}
+
+.bloco8{
+    margin-top: 250px;
+}
+
+
+.artigos {
+    margin-top: 40px;
+    display : flex;
+}
+
+.col-sm-4 {
+    padding: 10px ;
+   margin : auto;      
+}
+.card-title {
+    font-size:18px ;
+    text-align:center;
+}
+
+.card-text {
+    font-size :  15px ;
+    text-align : center;
+}
+
+.ler {
+    background:#fbbe28;
+    color: #fff;
+    border-radius :  9px  9px ;
+    padding:10px ;
+    font-size : 12px ;
+    margin-left: 20px ;  
+}
+
+
+
+
+/* ======================= Responsividade ==================== */
+
+@media (max-width : 800px) {
+
+    .nav-list {
+        position: absolute;
+        right: 1;
+        width: 50vh;
+        height: 100vh;
+        background:#ffffff ;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: none;
+        font-size: 15px;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.164);
+        
+    }
+    .iconNav {
+        display: block;
+    } 
+    .open {
+        display: flex ;
+        justify-content: space-around ;
+    }
+}
+
+  @media (max-width : 600px) {
+
+
+    .home  h1 {
+        font-size: 60px;
+    }
+
+    .home  h2 {
+        font-size: 40px ;
+        padding: 12px ;
+        margin-top: 25px ;
+    }
+    .artigos {
+        display : block;
+    }
+    .bloco3 {
+        text-align : center;
+        margin :  0px  0px  0px  5px ;
+    }
+
+}
+
+
+/*======================= Animações ====================*/
+
+*{
+    animation-name: fade;  
+    animation-duration: 1s;
+    }
+    @keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }

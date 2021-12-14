@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width:100%;
+}
+.logo{
+    width: 80px;
+    height:80px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+nav{
+    margin-left: -80px;
+    position:fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+
+}
+
+.iconNav{
+    float: right;
+    margin-top: 20px;
+    margin-right: -25px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+nav ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+nav li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    font-size:18px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+}
+
+nav li a:hover{
+    color:#63c1f8;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.bloco1{
+    margin-top: 30px;
+}
+
+.bloco1 h1{
+    text-align: center;
+    color: #63c1f8;
+    font-size: 34px;
+    font-weight:800;
+}
+
+.bloco1 h2{
+    text-align: center;
+    padding: 7px;
+    font-size: 25px;
+
+}
+
+.bloco1 h3{
+    color: #63c1f8;
+    margin-left: 70px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.bloco1 p{
+    margin: 5px 60px 0 60px;
+    padding: 10px;
+}
+
+.artigos {
+    margin-top: 40px;
+    margin-left: 100px;
+    display : flex;
+}
+
+.col-sm-4 {
+    padding: 10px ;   
+    margin: auto;  
+}
+.card-title {
+    font-size:18px ;
+    margin-left: 90px;
+}
+
+.card-text {
+    font-size :  15px ;
+    text-align : center;
+}
+
+.ler {
+    background:#2d1674;
+    color: #fff;
+    border-radius :  9px  9px ;
+    padding:10px ;
+    font-size : 12px ;
+    margin-left: 80px ;  
+}
+
+/*======================= Animações ====================*/
+
+*{
+    animation-name: fade;  
+    animation-duration: 1s;
+    }
+    @keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }
